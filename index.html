@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="crud">
+      <header class="head">
+        <h1>CRUDS</h1>
+        <p>Prodcut Manegment System</p>
+      </header>
+      <div class="input">
+        <input type="text" id="title" placeholder="title" />
+
+        <div class="price">
+          <input type="number" id="price" placeholder="price" />
+          <input type="number" id="taxes" placeholder="taxes" />
+          <input type="number" id="ads" placeholder="ads" />
+          <input type="number" id="discount" placeholder="discount" />
+          <small id="total"></small>
+        </div>
+        <input type="number" id="count" placeholder="count" />
+        <input type="text" id="category" placeholder="category" />
+        <button id="submit">create</button>
+      </div>
+      <div class="output">
+        <div class="search-block">
+          <input type="text" id="search" placeholder="search" />
+        </div>
+        <div class="btn-search">
+          <button id="search-title">Search by title</button>
+          <button id="search-category">Search by category</button>
+        </div>
+        <div class="delete-all"></div>
+        <table>
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>title</th>
+              <th>price</th>
+              <th>taxes</th>
+              <th>ads</th>
+              <th>discount</th>
+              <th>total</th>
+              <th>category</th>
+              <th>update</th>
+              <th>delete</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
