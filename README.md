@@ -2,6 +2,10 @@
 
 This project is a simple CRUD (Create, Read, Update, Delete) application for managing products. It allows users to add, view, update, and delete products, with additional features like search and total price calculation.
 
+## Screenshots
+
+![App Screenshot](screenshot.png)
+
 ## Features
 
 - **Create Products**: Add new products with details like title, price, taxes, ads, discount, and category.
@@ -34,7 +38,3 @@ This project is a simple CRUD (Create, Read, Update, Delete) application for man
 - `style.css`: Stylesheet for the application.
 - `main.js`: JavaScript file for handling functionality.
 - `Product.js`: JavaScript class for managing product data.
-
-## Screenshots
-
-![App Screenshot](screenshot.png)
