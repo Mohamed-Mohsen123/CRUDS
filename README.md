@@ -38,7 +38,3 @@ This project is a simple CRUD (Create, Read, Update, Delete) application for man
 ## Screenshots
 
 ![App Screenshot](screenshot.png)
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
